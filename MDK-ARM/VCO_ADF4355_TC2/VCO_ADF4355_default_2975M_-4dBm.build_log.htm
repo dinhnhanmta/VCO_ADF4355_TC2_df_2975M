@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: nhan fg, mta, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.18a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+E:\schematic_van anh\code\VCO_ADF4355_TC2_df_2975M\VCO_ADF4355_TC2_df_2975M\MDK-ARM\VCO_ADF4355_TC2.uvprojx
+Project File Date:  09/23/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'VCO_ADF4355_TC2'
+assembling startup_stm32f103xe.s...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling main.c...
+../Src/main.c(190): warning:  #188-D: enumerated type mixed with another type
+  				
+CE_HIGH;
+../Src/main.c(194): warning:  #188-D: enumerated type mixed with another type
+  				
+LE_HIGH;
+../Src/main.c(195): warning:  #188-D: enumerated type mixed with another type
+  				
+CLK_LOW;
+../Src/main.c(196): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+CO_DATA_GPIO_Port,
+CO_DATA_Pin,0);
+../Src/main.c(215): warning:  #61-D: integer operation result is out of range
+  	uint32_t Mask_Filter 						= (0x1FFFFFFC 			<< 3)| Mask_IDE |Mask_RTR;   // 1: bit do duoc so sanh, 0: bo qua khong duoc so sanh: loc ca kieu dia chi va kieu du lieu: data or remote
+../Src/main.c(240): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+ED_User_GPIO_Port,
+ED_User_Pin,1);		// bat
+../Src/main.c(242): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+ED_User_GPIO_Port,
+ED_User_Pin,0);		// bat
+../Src/main.c(293): warning:  #188-D: enumerated type mixed with another type
+  				
+LE_HIGH;
+../Src/main.c(294): warning:  #188-D: enumerated type mixed with another type
+  				
+CLK_LOW;
+../Src/main.c(295): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+CO_DATA_GPIO_Port,
+CO_DATA_Pin,0);
+../Src/main.c(297): warning:  #188-D: enumerated type mixed with another type
+  			 HAL_GPIO_WritePin(
+ED_User_GPIO_Port,
+ED_User_Pin,1);		// bat
+../Src/main.c(519): warning:  #188-D: enumerated type mixed with another type
+      
+LE_LOW;
+../Src/main.c(523): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+CO_DATA_GPIO_Port,
+CO_DATA_Pin,(REG_VALUE >>(31-i)) & 1);
+../Src/main.c(525): warning:  #188-D: enumerated type mixed with another type
+  			
+CLK_HIGH;
+../Src/main.c(527): warning:  #188-D: enumerated type mixed with another type
+  			
+CLK_LOW;
+../Src/main.c(530): warning:  #188-D: enumerated type mixed with another type
+      
+LE_HIGH;
+../Src/main.c: 17 warnings, 0 errors
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_can.c...
+compiling stm32f1xx_hal_rcc.c...
+linking...
+Program Size: Code=7732 RO-data=352 RW-data=120 ZI-data=1096  
+FromELF: creating hex file...
+"VCO_ADF4355_TC2\VCO_ADF4355_default_2975M_-4dBm.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\schematic_van anh\code\VCO_ADF4355_TC2_df_2975M\VCO_ADF4355_TC2_df_2975M\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

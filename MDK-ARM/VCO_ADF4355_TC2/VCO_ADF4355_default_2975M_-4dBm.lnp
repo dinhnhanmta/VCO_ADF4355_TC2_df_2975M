@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"vco_adf4355_tc2\startup_stm32f103xe.o"
+"vco_adf4355_tc2\system_stm32f1xx.o"
+"vco_adf4355_tc2\main.o"
+"vco_adf4355_tc2\stm32f1xx_hal_msp.o"
+"vco_adf4355_tc2\stm32f1xx_it.o"
+"vco_adf4355_tc2\stm32f1xx_hal_flash.o"
+"vco_adf4355_tc2\stm32f1xx_hal_gpio.o"
+"vco_adf4355_tc2\stm32f1xx_hal_tim.o"
+"vco_adf4355_tc2\stm32f1xx_hal_cortex.o"
+"vco_adf4355_tc2\stm32f1xx_hal_tim_ex.o"
+"vco_adf4355_tc2\stm32f1xx_hal_rcc_ex.o"
+"vco_adf4355_tc2\stm32f1xx_hal_pwr.o"
+"vco_adf4355_tc2\stm32f1xx_hal_gpio_ex.o"
+"vco_adf4355_tc2\stm32f1xx_hal_can.o"
+"vco_adf4355_tc2\stm32f1xx_hal_dma.o"
+"vco_adf4355_tc2\stm32f1xx_hal_flash_ex.o"
+"vco_adf4355_tc2\stm32f1xx_hal_rcc.o"
+"vco_adf4355_tc2\stm32f1xx_hal.o"
+--library_type=microlib --strict --scatter "VCO_ADF4355_TC2\VCO_ADF4355_default_2975M_-4dBm.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VCO_ADF4355_default_2975M_-4dBm.map" -o VCO_ADF4355_TC2\VCO_ADF4355_default_2975M_-4dBm.axf
